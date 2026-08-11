@@ -14,7 +14,6 @@ const PAGE_TITLES = {
   evacuation: ['Route Planning', 'Evacuation Plan'],
   resources: ['Reference', 'Alerts & Resources'],
 }
-
 export default function App() {
   const [page, setPage] = useState('dashboard')
   const [checked, setChecked] = useLocalStorage('readyline-checked', {})
