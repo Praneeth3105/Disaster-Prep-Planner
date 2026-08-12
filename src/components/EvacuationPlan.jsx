@@ -52,7 +52,8 @@ export default function EvacuationPlan({ meetingPoints, onNavigate }) {
               Add meeting points
             </button>
           </div>
-        ) : (
+        ) : 
+          (
           <table className="record-table">
             <thead>
               <tr>
