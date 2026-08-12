@@ -7,7 +7,6 @@ export const helplines = [
   { name: 'Women Helpline', number: '1091' },
   { name: 'Child Helpline', number: '1098' },
 ]
-
 export const hazardGuides = [
   {
     id: 'earthquake',
