@@ -67,7 +67,6 @@ export const checklistCategories = [
     ],
   },
 ]
-
 export const totalItemCount = checklistCategories.reduce(
   (sum, cat) => sum + cat.items.length,
   0,
