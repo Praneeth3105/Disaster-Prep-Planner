@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 export default function FamilyPlan({ contacts, setContacts, meetingPoints, setMeetingPoints }) {
   const [contactForm, setContactForm] = useState({ name: '', relation: '', phone: '' })
   const [pointForm, setPointForm] = useState({ label: '', address: '' })
@@ -11,8 +10,6 @@ export default function FamilyPlan({ contacts, setContacts, meetingPoints, setMe
     setContactForm({ name: '', relation: '', phone: '' })
   }
 
-
-  
   const removeContact = (id) => setContacts(contacts.filter((c) => c.id !== id))
 
   const addPoint = (e) => {
