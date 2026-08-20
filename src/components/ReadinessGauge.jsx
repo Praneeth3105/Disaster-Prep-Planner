@@ -6,14 +6,11 @@ export default function ReadinessGauge({ percent }) {
   const startAngle = 180
   const endAngle = 0
   const angle = startAngle - (clamped / 100) * (startAngle - endAngle)
-
   const toXY = (deg) => {
     const rad = (deg * Math.PI) / 180
     return [cx + radius * Math.cos(rad), cy - radius * Math.sin(rad)]
   }
-
   const [needleX, needleY] = toXY(angle)
-
   const arcPath = (from, to, r) => {
     const [x1, y1] = toXY(from)
     const [x2, y2] = toXY(to)
