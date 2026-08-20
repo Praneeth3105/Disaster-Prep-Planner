@@ -5,7 +5,6 @@ const NAV_ITEMS = [
   { id: 'evacuation', label: 'Evacuation Plan', tag: 'EV' },
   { id: 'resources', label: 'Alerts & Resources', tag: 'RS' },
 ]
-
 export default function Sidebar({ active, onNavigate }) {
   return (
     <aside className="sidebar">
