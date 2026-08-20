@@ -20,7 +20,6 @@ const STEPS = [
     body: 'Once safe, contact your out-of-town contact so they can relay your status to the rest of the family.',
   },
 ]
-
 export default function EvacuationPlan({ meetingPoints, onNavigate }) {
   return (
     <div>
