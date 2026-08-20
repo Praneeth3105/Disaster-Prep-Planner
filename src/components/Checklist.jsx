@@ -1,5 +1,4 @@
 import { checklistCategories } from '../data/checklistData'
-
 export default function Checklist({ checked, onToggle }) {
   return (
     <div>
@@ -10,7 +9,6 @@ export default function Checklist({ checked, onToggle }) {
           Pack a bag your household can grab in under two minutes. Check items off as you pack them —
           your progress saves automatically.
         </p>
-
         {checklistCategories.map((cat) => {
           const done = cat.items.filter((it) => checked[it.id]).length
           return (
