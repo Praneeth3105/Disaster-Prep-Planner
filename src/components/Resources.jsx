@@ -3,7 +3,6 @@ import { helplines, hazardGuides } from '../data/resourcesData'
 
 export default function Resources() {
   const [openId, setOpenId] = useState(hazardGuides[0]?.id ?? null)
-
   return (
     <div>
       <div className="section-label">Alerts & Resources</div>
