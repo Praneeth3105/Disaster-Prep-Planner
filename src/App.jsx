@@ -18,9 +18,7 @@ export default function App() {
   const [checked, setChecked] = useLocalStorage('readyline-checked', {})
   const [contacts, setContacts] = useLocalStorage('readyline-contacts', [])
   const [meetingPoints, setMeetingPoints] = useLocalStorage('readyline-meeting-points', [])
-
   const toggleItem = (id) => setChecked((prev) => ({ ...prev, [id]: !prev[id] }))
-
   const [eyebrow, title] = PAGE_TITLES[page]
 
   return (
