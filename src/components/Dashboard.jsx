@@ -4,7 +4,6 @@ import ReadinessGauge from './ReadinessGauge'
 export default function Dashboard({ checked, contacts, meetingPoints, onNavigate }) {
   const checkedCount = Object.values(checked).filter(Boolean).length
   const percent = totalItemCount ? (checkedCount / totalItemCount) * 100 : 0
-
   return (
     <div>
       <div className="section-label">Situation Report</div>
@@ -54,7 +53,6 @@ export default function Dashboard({ checked, contacts, meetingPoints, onNavigate
           </div>
         </div>
       </div>
-
       <div className="panel">
         <div className="section-label">Quick Actions</div>
         <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
