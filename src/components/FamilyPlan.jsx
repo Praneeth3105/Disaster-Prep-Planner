@@ -9,9 +9,7 @@ export default function FamilyPlan({ contacts, setContacts, meetingPoints, setMe
     setContacts([...contacts, { ...contactForm, id: crypto.randomUUID() }])
     setContactForm({ name: '', relation: '', phone: '' })
   }
-
   const removeContact = (id) => setContacts(contacts.filter((c) => c.id !== id))
-
   const addPoint = (e) => {
     e.preventDefault()
     if (!pointForm.label || !pointForm.address) return
