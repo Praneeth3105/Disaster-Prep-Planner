@@ -6,6 +6,7 @@ import FamilyPlan from './components/FamilyPlan'
 import EvacuationPlan from './components/EvacuationPlan'
 import Resources from './components/Resources'
 import { useLocalStorage } from './hooks/useLocalStorage'
+
 const PAGE_TITLES = {
   dashboard: ['Overview', 'Dashboard'],
   checklist: ['Kit Preparation', 'Supply Checklist'],
