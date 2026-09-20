@@ -15,6 +15,5 @@ export function useLocalStorage(key, initialValue) {
     } catch {
     }
   }, [key, value])
-
   return [value, setValue]
 }
