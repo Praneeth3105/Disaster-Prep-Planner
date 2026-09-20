@@ -37,7 +37,6 @@ export default function App() {
             LOCAL DEVICE STORAGE
           </div>
         </header>
-
         {page === 'dashboard' && (
           <Dashboard
             checked={checked}
