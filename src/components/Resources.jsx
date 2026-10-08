@@ -6,7 +6,6 @@ export default function Resources() {
   return (
     <div>
       <div className="section-label">Alerts & Resources</div>
-
       <div className="panel">
         <h2 className="block-title">Emergency Helplines</h2>
         <p className="subtext">India-wide numbers. Save these to your phone's emergency contacts too.</p>
@@ -19,7 +18,6 @@ export default function Resources() {
           ))}
         </div>
       </div>
-
       <div className="panel">
         <h2 className="block-title">Hazard Response Guides</h2>
         <p className="subtext">Short first-response steps by hazard type. Not a substitute for official guidance.</p>
